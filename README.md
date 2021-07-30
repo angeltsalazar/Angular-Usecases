@@ -14,10 +14,14 @@ Estas son mis notas relacionas al desarrollo de aplicaciones con Angular 2
 - Angular CLI: Usar esta herramienta para la creación y desarrollo de aplicaciones.
 - Utilizar la librerías provistas por Angular, para Ruteo, Formas, HttpClient, Animaciones, PWA, entre otras.
 
-[Ver Angular applications: The essentials](https://angular.io/guide/what-is-angular)
+Ver [Angular applications: The essentials](https://angular.io/guide/what-is-angular)
 
 ## Desarrollo de una aplicación
 
 - Crear el proyecto para la aplicación, a través de un servicio en la nube o usando Angular CLI.
+- Crear la vista inicial con una lista de elementos
+  - Crear el componente.
+  - Crear el template de HTML, para el componente. Utilizando la directiva *ngFor. (snippet: angularCreateList)
+  - Crear el UI del componente utilizando HTML y los datos del componente.
 
-[Ver Getting started with Angular](https://angular.io/start)
+Ver [Getting started with Angular](https://angular.io/start)
