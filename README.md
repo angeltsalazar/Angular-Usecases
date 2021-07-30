@@ -18,10 +18,12 @@ Ver [Angular applications: The essentials](https://angular.io/guide/what-is-angu
 
 ## Desarrollo de una aplicación
 
-- Crear el proyecto para la aplicación, a través de un servicio en la nube o usando Angular CLI.
+- Crear el proyecto para la aplicación usando una de las siguientes métodos: 
+  - A través de un servicio en la nube. Como [StackBlitz](https://stackblitz.com/)
+  - Usando Angular CLI.
 - Crear la vista inicial con una lista de elementos
   - Crear el componente.
-  - Crear el template de HTML, para el componente. Utilizando la directiva *ngFor. (snippet: angularCreateList)
+  - Crear el template de HTML, para el componente. (snippet: angularCreateList)
   - Crear el UI del componente utilizando HTML y los datos del componente.
 
 Ver [Getting started with Angular](https://angular.io/start)
