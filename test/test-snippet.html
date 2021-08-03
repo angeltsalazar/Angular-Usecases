@@ -1,7 +1,17 @@
-<h2>products</h2>
+<h2>Title List</h2>
+<!-- 
+1. The source listProperty should be defined in the component.ts class, for instance: 
+import { listProperty } from '../classDefAndData'; 
+2. ClassDefAndData.ts should contain the class definition and export a list of objects for testing. 
+This ClassDefAndData.ts file is out of component directory but inside the app directory.
+-->
 <div *ngFor="let product of products">
     <h3>
- {{ product.attr }}
+        <a [title]='product.property + details'>{{ product.property }}</a>
     </h3>
+<!-- 3. You can add optional content with the Structural directives *ngIf -->
+    <p *ngIf="product.property2">Field description: {{ product.property2 }}</p>
+<!-- 4. You can add buttons to connect with component methods -->
+<button (click)="method()">Method Action Description</button>
 </div>
 
